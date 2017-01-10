@@ -1,10 +1,8 @@
 #!/bin/sh
-
-export ROOT=/mnt/LFS
+# make lfs vars
+export ROOT=/mnt/lfs
 export WAIT=1
 export UNPACK=1
-
-
 export LFS=$ROOT
 export SOURCES_DIR=$ROOT/sources
 export BUILD_DIR=$ROOT/build
@@ -88,8 +86,8 @@ if [ $UNPACK == 1 ]; then
 		else
 			echo "$R somethink went wrong with archive unpack $DEF";
 		fi
-		echo "To unpack again type somethink and press enter"
-		echo "To continue only, leave blank and pres enter"
+		echo "To unpack again type something and press enter"
+		echo "To continue only, leave blank and press enter"
 		read repeat
 	done
 fi
