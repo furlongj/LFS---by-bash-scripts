@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# set vars
 export ROOT=/
 export SCRIPTS_DIR=/scripts
 
