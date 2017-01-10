@@ -5,7 +5,7 @@ source $SCRIPTS_DIR/include/prepare
 source $SCRIPTS_DIR/include/ver
 source $SCRIPTS_DIR/include/l10n-EN
 
-####### Start builds of packages #######
+# Start builds of packages
 source $SCRIPTS_DIR/chap5/binutils
 source $SCRIPTS_DIR/chap5/gcc
 source $SCRIPTS_DIR/chap5/linux
@@ -37,6 +37,7 @@ source $SCRIPTS_DIR/chap5/tar
 source $SCRIPTS_DIR/chap5/texinfo
 source $SCRIPTS_DIR/chap5/xzutils
 source $SCRIPTS_DIR/chap5/finish5
+# error catching
 if [ $TOOLS_STRIP == 1 ];
    	then
 		source $SCRIPTS_DIR/chap5/stripfiles
