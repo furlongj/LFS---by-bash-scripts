@@ -1,5 +1,5 @@
 #!/bin/sh
-# make lfs vars
+#make lfs vars
 export ROOT=/mnt/lfs
 export WAIT=1
 export UNPACK=1
@@ -27,7 +27,7 @@ waitUser (){
 }
 export -f waitUser
 
-#function downloaded file given in first parametr
+#function downloaded file given in first parameter
 download (){
  wget -c ${1} -P ${SOURCES_DIR}/
 }
