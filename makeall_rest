@@ -8,7 +8,7 @@ source $SCRIPTS_DIR/include/chroot_prepare
 source $SCRIPTS_DIR/include/ver
 source $SCRIPTS_DIR/include/l10n-EN
 
-####### Start builds of packages #######
+# Start builds of packages
 
 source $SCRIPTS_DIR/chap7/bootscripts
 source $SCRIPTS_DIR/chap7/clockInputrcProfile
