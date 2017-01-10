@@ -9,7 +9,7 @@ This is set of bash scripts for build Linux From Scratch distribution.
 Prepare:
 --------
 
-* You must firts read LFS book 6.8 http://www.linuxfromscratch.org/lfs/download.html
+* You must first read LFS book 6.8 http://www.linuxfromscratch.org/lfs/download.html
 
 * Do all steps until chapter 5
 
@@ -25,7 +25,7 @@ Prepare:
 
 Important:
 ----------
-My scripts are little different from LFS. Tarballs with packages are in folder sources but they are unpacked to folder build. And by my mistake at begining I made folder /mnt/LFS instead of /mnt/lfs so if you want have folder /mnt/lfs you must change variable root in /include/prepare, onlyunpackscript, chap6/start6 and .bashrc of lfs user (I hope I didn't forget somethink). And last one folders for separate build are with -BUILD sufix instead of -build :D
+My scripts are little different from LFS. Tarballs with packages are in folder sources but they are unpacked to folder build. And last one folders for separate build are with -BUILD sufix instead of -build :D
 
 DO IT:
 ------
@@ -82,8 +82,8 @@ onlyunpackscript
   Very usefull script for download and unpack packages
 
 ###variables:
-####ROOT=/mnt/LFS
-mountpoint of LFS HDD
+####ROOT=/mnt/lfs
+mountpoint of lfs HDD
 ####WAIT=1
 useless variable if 1 it wait every step but if you unpacking you must wait elsewhere and if you only downloading you want every step pres enter
 ####UNPACK=1
